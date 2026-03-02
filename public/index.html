@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EmbeddingDemo</title>
+    <style>
+      body {
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+        max-width: 720px;
+        margin: 40px auto;
+        padding: 0 16px;
+      }
+      label {
+        display: block;
+        margin-bottom: 8px;
+      }
+      input {
+        width: 100%;
+        padding: 10px 12px;
+        font-size: 16px;
+        box-sizing: border-box;
+      }
+      button {
+        margin-top: 12px;
+        padding: 10px 14px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      #result {
+        margin-top: 12px;
+        padding: 10px 12px;
+        border: 1px solid #ddd;
+        background: #fafafa;
+        min-height: 20px;
+        white-space: pre-wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Movies Suggestions by AI</h1>
+
+    <label for="queryInput">Enter text</label>
+    <input id="queryInput" type="text" placeholder="Type your query..." />
+
+    <button id="sendBtn" type="button">Send</button>
+
+    <div id="result" aria-live="polite"></div>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
