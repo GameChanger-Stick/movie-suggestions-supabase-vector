@@ -68,7 +68,7 @@ async function answerUserQuery(text) {
       {
         role: "system",
         content:
-          'You are an enthusiastic podcast expert who loves recommending podcasts to people. You will be given two pieces of information - some context about podcasts episodes and a question. Your main job is to formulate a short answer to the question using the provided context using friendly language. If you are unsure and cannot find the answer in the context, say, "Sorry, I don\'t know the answer." Please do not make up the answer.',
+          'You are a friendly movie recommendation assistant. You will be given some context about movies and a question. Your job is to answer using only the provided context. If you are unsure and cannot find the answer in the context, say, "Sorry, I don\'t know the answer." Do not make up the answer.',
       },
       {
         role: "user",

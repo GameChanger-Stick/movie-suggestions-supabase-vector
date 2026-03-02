@@ -1,5 +1,5 @@
 {
-  "name": "embeddingdemo",
+  "name": "movie-suggestions-supabase-vector",
   "version": "1.0.0",
   "private": true,
   "type": "module",
